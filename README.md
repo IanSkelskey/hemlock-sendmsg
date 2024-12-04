@@ -9,7 +9,7 @@ Quick Start
 ```bash
 make && sudo make install
 ```
-2. Copy the Firebase service account key to the `hemlock-sendmsg` directory as `service-account.json`.  For detailed instructions, see the [Setup Guide to Push Notifications](https://github.com/kenstir/hemlock/blob/feat/pn/docs/setup-guide-to-push-notifications.md).
+2. Copy the Firebase service account key to the `hemlock-sendmsg` directory as `service-account.json`.  For detailed instructions, see the [Setup Guide to Push Notifications](https://kenstir.github.io/hemlock-docs/docs/pn-setup-guide).
 3. Start the server
 ```bash
 sudo systemctl start hemlock-sendmsg
